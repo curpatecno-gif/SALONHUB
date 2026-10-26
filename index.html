@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBHA Salon & Barbershop Booking</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #10131b;
+      color: white;
+    }
+    header {
+      background: #080b12;
+      padding: 22px 16px;
+      text-align: center;
+      border-bottom: 2px solid #d6ad55;
+    }
+    header h1 { color: #e4bd68; font-size: 23px; }
+    nav { margin-top: 18px; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px;
+      font-size: 14px;
+    }
+    .hero {
+      padding: 48px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #191f30, #080b12);
+    }
+    .hero h2 { color: #e4bd68; font-size: 30px; }
+    .hero p { line-height: 1.7; color: #ddd; }
+    .btn {
+      display: inline-block;
+      background: #d6ad55;
+      color: #111;
+      padding: 13px 20px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 12px;
+    }
+    .services { padding: 25px 16px; }
+    .services h2 {
+      text-align: center;
+      color: #e4bd68;
+    }
+    .service {
+      background: #1b2130;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 14px 0;
+      border: 1px solid #343b4d;
+    }
+    .service h3 { color: #e4bd68; }
+    footer {
+      text-align: center;
+      padding: 22px;
+      background: #080b12;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BBHA SALON HUB</h1>
+    <p>Uzuri • Huduma • Urahisi</p>
+    <nav>
+      <a href="#nyumbani">Nyumbani</a>
+      <a href="#huduma">Huduma</a>
+      <a href="#booking">Booking</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="nyumbani">
+    <h2>Karibu BBHA Salon Hub</h2>
+    <p>Pata kinyozi au saluni inayokufaa Tanzania.<br>
+    Rahisisha miadi yako ya huduma za urembo.</p>
+    <a class="btn" href="#booking">Weka Miadi</a>
+  </section>
+
+  <section class="services" id="huduma">
+    <h2>Huduma Zetu</h2>
+    <div class="service">
+      <h3>✂️ Barber Shop</h3>
+      <p>Tafuta vinyozi na huduma za kukata nywele.</p>
+    </div>
+    <div class="service">
+      <h3>💇 Saluni za Kike</h3>
+      <p>Tafuta saluni za kusuka na kutengeneza nywele.</p>
+    </div>
+    <div class="service" id="booking">
+      <h3>📅 Weka Miadi</h3>
+      <p>Hatua inayofuata tutaunganisha mfumo wa booking.</p>
+      <a class="btn" href="https://wa.me/" target="_blank">Wasiliana nasi</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 BBHA Tanzania</p>
+    <p>Salon & Barbershop Booking Platform</p>
+  </footer>
+</body>
+</html>
